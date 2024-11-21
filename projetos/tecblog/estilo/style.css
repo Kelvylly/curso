@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f1f1;
+}
+header{
+    background:#f7b600 ;
+    text-align: center;
+
+}
+header > h1,nav{
+    padding: 20px;
+}
+
+header > h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    padding-top: 50px;
+
+
+}
+.branco{
+    color: #ffffff;
+    background: #4e4e4e;
+}
+.laranja{
+    color: orange;
+}
+header > nav> a:link, a:visited{
+    padding: 10px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    
+}
+header > nav> a:hover{
+    background: #ffffff;
+    border: 40px;
+    color: orange;
+
+}
+a:link, a:visited{
+    color: #f7b600;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    
+    width: 1220px;
+    margin: 0 auto 10px;
+
+}
+#principal{
+    width: 820px;
+    padding: 20px;
+    float: left;
+    
+}
+.data{
+    padding-bottom: 10px;
+    margin-bottom:10px ;
+    display: block;
+    
+}
+#img1{
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+    
+}
+aside{
+    width: 320px;
+    float: right;
+    border: #ffffff solid 10px;
+}
+aside h2,h3{
+    background: #9e9d9d73;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-bottom:10px ;
+}
+aside div{
+    padding-bottom: 10px;
+    margin-bottom:10px ;
+    border-bottom: #000000 solid 1px;
+}
+aside p{
+    font-size: 0.95em;
+}
+#principal, aside{
+    background: #ffffff;
+    margin-top: 20px;
+}
+footer{
+    background: #8d8d8d;
+    max-height: 50px;
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#navegacao,h1{
+    padding: 10px;
+}
+#navegacao a {
+    padding: 0;
+    text-indent: 40px; /* Corrected */
+    line-height: 40px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    background: #f4b600 url(../img/menu.png) no-repeat left;
+}
+
+
+#navegacao a:hover { /* Updated to .select a:hover */
+    background: #f99200 url(../img/menu.png) no-repeat right bottom; 
+    color: aliceblue;
+}
+#home #navegacao .home a,
+ #sobre #navegacao .sobre a,
+  #servicos #navegacao .servicos  a,
+   #noticias #navegacao .noticias a,
+    #contato #navegacao .contato a{
+    background: #f99200 url(../img/menu.png) no-repeat right bottom; 
+    color: aliceblue;
+}

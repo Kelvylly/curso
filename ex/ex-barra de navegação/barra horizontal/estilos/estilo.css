@@ -1,0 +1,38 @@
+
+
+#navegacao{
+    padding: 0;
+    width: 720px;
+    text-decoration: none;
+    background: #159cb0 url(../img/fundo-horizontal.png) repeat-x; 
+    float: left;
+    list-style: none;
+}
+#navegacao li{
+    float: left;
+    
+}
+#navegacao a {
+    padding: 0 2em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.2em;
+    background: url(../img/divisor.png) repeat-y;
+}
+#navegacao .primeiro a{
+    background: none;
+}
+
+#navegacao a:hover { /* Updated to .select a:hover */
+    background:#44cade; 
+    color: #085662;
+}
+#home #navegacao .home a,
+ #sobre #navegacao .sobre a,
+  #servicos #navegacao .servicos  a,
+   #noticias #navegacao .noticias a,
+    #contato #navegacao .contato a{
+        background:#44cade; 
+        color: #085662;
+}
